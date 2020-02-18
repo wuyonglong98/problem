@@ -1,0 +1,299 @@
+html {
+    font-size: calc(100vw/6.4);
+    height: 100%;
+    /* background: linear-gradient(to right, #f8f2e9 33%, #fbf8f4 66%, #f8f2e9 100%); */
+}
+
+body {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.all {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.index {
+    width: 6.4rem;
+    /* height: 10.4rem; */
+    height: 100%;
+    background: url(../images/bg.png) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    font-size: 0.22rem;
+    /* display: none; */
+}
+
+.banner {
+    width: 2.27rem;
+    height: 1.3rem;
+    position: absolute;
+    left: 1.5rem;
+    top: 6.2rem;
+}
+
+.answer {
+    width: 4.24rem;
+    height: 2.04rem;
+    position: absolute;
+    left: 1.1rem;
+    top: 7.6rem;
+}
+
+.chance {
+    color: #f98423;
+    position: absolute;
+    left: 2rem;
+    top: 9.7rem;
+    font-weight: bold;
+}
+
+.life {
+    width: 5.78rem;
+    height: 0.81rem;
+    background: url(../images/index_tip.png);
+    background-size: cover;
+    position: absolute;
+    left: 0.3rem;
+    top: 10.4rem;
+}
+
+.main {
+    width: 6.4rem;
+    height: 100%;
+    background: url(../images/bg2.jpg) no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    font-size: 0.3rem;
+    font-weight: bold;
+    display: none;
+}
+
+.score {
+    color: #f44f4f;
+    position: absolute;
+    left: 4.9rem;
+    top: 0.4rem;
+}
+
+.clockBg {
+    width: 4.85rem;
+    height: 0.32rem;
+    background: #f98423;
+    position: absolute;
+    left: 0.8rem;
+    top: 1.2rem;
+}
+
+.clock {
+    width: 1.56rem;
+    height: 1.83rem;
+    background: url(../images/lock.png);
+    background-size: 100% 100%;
+    position: absolute;
+    left: 2.4rem;
+    top: 0.2rem;
+    text-align: center;
+    line-height: 2.1rem;
+    color: #f98423;
+}
+
+.questionCount {
+    position: absolute;
+    left: 1.2rem;
+    top: 2.5rem;
+}
+
+.opti {
+    position: absolute;
+    left: 0.6rem;
+    top: 4.4rem;
+}
+
+.opList {
+    width: 5rem;
+    height: 0.6rem;
+    border: 0.01rem solid #000;
+    border-radius: 0.1rem;
+    margin-top: 0.2rem;
+    padding-left: 0.3rem;
+    line-height: 0.6rem;
+    position: relative;
+}
+
+.true {
+    width: 0.47rem;
+    height: 0.36rem;
+    position: absolute;
+    left: 4.7rem;
+    top: 0.15rem;
+}
+
+.bTip {
+    width: 5.68rem;
+    height: 0.86rem;
+    position: absolute;
+    left: 0.4rem;
+    top: 10.4rem;
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .7);
+    position: relative;
+    top: -100%;
+    display: none;
+}
+
+.allRight {
+    position: relative;
+    top: -187%;
+    display: none;
+}
+
+.close {
+    width: 0.6rem;
+    height: 1.1rem;
+    margin-left: 4.8rem;
+}
+
+.popBg {
+    width: 5.9rem;
+    height: 5rem;
+    background: url(../images/pop_bg.png);
+    background-size: 100% 100%;
+    margin: -0.1rem auto 0;
+    padding-top: 0.15rem;
+}
+
+.cgtion {
+    font-size: 0.3rem;
+    color: #e62816;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0.25rem;
+}
+
+.get {
+    font-size: 0.22rem;
+    color: #e62816;
+    text-align: center;
+    margin-top: 0.1rem;
+}
+
+.popTip {
+    width: 5.01rem;
+    height: 2.07rem;
+    margin: 0.5rem 0 0 0.45rem;
+}
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.mBtn {
+    width: 1.6rem;
+    height: 0.6rem;
+    border-radius: 1rem;
+    text-align: center;
+    line-height: 0.6rem;
+    float: left;
+    margin-left: 0.3rem;
+    margin-top: 0.2rem;
+    color: #fff;
+    font-size: 0.25rem;
+    background: #f98423;
+}
+
+.sBtn {
+    width: 1.6rem;
+    height: 0.6rem;
+    border-radius: 1rem;
+    text-align: center;
+    line-height: 0.6rem;
+    float: right;
+    margin-right: 0.3rem;
+    margin-top: 0.2rem;
+    color: #fff;
+    font-size: 0.25rem;
+    background: #feb226;
+}
+
+.autoAdd {
+    width: 5.9rem;
+    height: 5.3rem;
+    position: relative;
+    top: -181%;
+    color: #ec7002;
+    background: #fff;
+    border-radius: 0.2rem;
+    margin: 0 auto;
+    padding-top: 0.3rem;
+    font-size: 0.25rem;
+    display: none;
+}
+
+.autoYou {
+    font-size: 0.35rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sun {
+    width: 2.29rem;
+    height: 2.29rem;
+    position: absolute;
+    top: 1rem;
+    left: 1.6rem;
+}
+
+.nl {
+    width: 0.54rem;
+    height: 0.6rem;
+    position: absolute;
+    top: 1.8rem;
+    left: 2.5rem;
+}
+
+.addTen {
+    font-size: 0.25rem;
+    font-weight: bold;
+    position: absolute;
+    top: 2.1rem;
+    left: 3rem;
+}
+
+.addTen span {
+    font-weight: normal;
+}
+
+.added {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.nowCon {
+    text-align: center;
+}
+
+.continu {
+    text-align: center;
+    margin-top: 0.3rem;
+}
+
+.continu a {
+    color: #eb5749;
+}
